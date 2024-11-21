@@ -29,7 +29,7 @@ const Discover = () => {
                             <h4>Venice, Rome & Milan</h4>
                             <div className='discover_context_actions'>
                                 <small>Karineside</small>
-                                <span>$699<span>$548</span></span>
+                                <p><span class="strikethrough">$699</span>$548</p>
                             </div>
                             <hr></hr>
                             <div className='discover_context_actions'>
@@ -44,7 +44,7 @@ const Discover = () => {
                             <h4>Venice, Rome & Milan</h4>
                             <div className='discover_context_actions'>
                                 <small>Karineside</small>
-                                <span>$699<span>$548</span></span>
+                                <p><span class="strikethrough">$699</span>$548</p>
                             </div>
                             <hr></hr>
                             <div className='discover_context_actions'>
@@ -59,7 +59,7 @@ const Discover = () => {
                             <h4>Venice, Rome & Milan</h4>
                             <div className='discover_context_actions'>
                                 <small>Karineside</small>
-                                <span>$699<span>$548</span></span>
+                                <p><span class="strikethrough">$699</span>$548</p>
                             </div>
                             <hr></hr>
                             <div className='discover_context_actions'>
@@ -74,7 +74,7 @@ const Discover = () => {
                             <h4>Venice, Rome & Milan</h4>
                             <div className='discover_context_actions'>
                                 <small>Karineside</small>
-                                <span>$699<span>$548</span></span>
+                                <p><span class="strikethrough">$699</span>$548</p>
                             </div>
                             <hr></hr>
                             <div className='discover_context_actions'>
@@ -89,7 +89,7 @@ const Discover = () => {
                             <h4>Venice, Rome & Milan</h4>
                             <div className='discover_context_actions'>
                                 <small>Karineside</small>
-                                <span>$699<span>$548</span></span>
+                                <p><span class="strikethrough">$699</span>$548</p>
                             </div>
                             <hr></hr>
                             <div className='discover_context_actions'>
@@ -104,7 +104,7 @@ const Discover = () => {
                             <h4>Venice, Rome & Milan</h4>
                             <div className='discover_context_actions'>
                                 <small>Karineside</small>
-                                <span>$699<span>$548</span></span>
+                                <p><span class="strikethrough">$699</span>$548</p>
                             </div>
                             <hr></hr>
                             <div className='discover_context_actions'>
