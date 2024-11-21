@@ -10,6 +10,7 @@
     text-align: center;
     display: flex;
     align-items: center;
+    margin-bottom: 150px;
 
     .hero_section {
         position: relative;
@@ -68,10 +69,11 @@
                 transform: translate(-50%, -50%);
                 height: 100%;
 
-                 .search_wrapper {
+                .search_wrapper {
                     padding: 2px;
                 }
             }
+
             @media (max-width: 500px) {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
@@ -83,6 +85,8 @@
         }
     }
 }
+
+// Navbar
 
 .navbar_wrapper {
     height: 70px;
@@ -166,6 +170,7 @@
                 display: none;
             }
         }
+
         @media (max-width: 450px) {
             grid-template-columns: 1fr 50px;
         }
@@ -179,4 +184,104 @@
             cursor: pointer;
         }
     }
+}
+
+// Discover
+
+.discover_wrapper {
+    background-color: white;
+    height: auto;
+    color: black;
+    margin: 50px 20px;
+
+        .discover_header {
+            text-align: center;
+
+            p {
+                width: 300px;
+                margin: 20px auto;
+
+            }
+        }
+
+        .discover_actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px 0;
+
+            .discover_btns,
+            .discover_arows {
+                column-gap: 20px;
+                display: flex;
+            }
+
+
+            .discover_btns Button:nth-child(1) {
+                background-color: black;
+                color: white !important;
+            }
+        }
+
+        .discover {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            column-gap: 35px;
+            row-gap: 35px;
+
+            .discover_place {
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                background-color: rgb(218, 218, 218);
+                border-radius: 15px;
+
+                img {
+                    border-radius: 15px 15px 0 0;
+                    height: auto;
+                }
+
+                .discover_context {
+                    row-gap: 10px;
+                    display: flex;
+                    padding: 10px;
+                    flex-direction: column;
+
+                    .discover_context_actions {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                }
+
+            }
+
+            @media (max-width: 900px) {
+                grid-template-columns: 1fr 1fr;
+            }
+            @media (max-width: 600px) {
+                grid-template-columns: 1fr 1fr;
+
+                .discover_place{
+                    img {
+                        border-radius: 15px 15px 0 0;
+                        height: 200px;
+                    }
+    
+                }
+            }
+            @media (max-width: 500px) {
+                grid-template-columns: 1fr;
+
+                .discover_place{
+                    img {
+                        border-radius: 15px 15px 0 0;
+                        height: 250px;
+                    }
+    
+                }
+            }
+        }
+    
 }

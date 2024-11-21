@@ -11,8 +11,33 @@
 
 .container{
   width: 1440px;
-  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+  margin: auto;
+  background-color: transparent;
 }
+
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+
+  /* Tablet screens */
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Mobile screens */
+  .container {
+    width: 100%;
+    padding: 0 8px;
+  }
+}
+
+
 
 h2{
   font-size: 40px;
@@ -22,6 +47,7 @@ Button{
   padding: 10px;
   border-radius: 50px !important;
   border: 5px solid grey !important;
+  color: black !important;
 }
 
 
