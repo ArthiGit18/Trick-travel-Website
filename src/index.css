@@ -47,8 +47,15 @@ Button{
   padding: 10px;
   border-radius: 50px !important;
   border: 5px solid grey !important;
-  color: black !important;
+  /* color: black !important; */
+  color: white !important;
+  font-weight: 650 !important;
 }
+
+Button:hover{
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
 
 
 

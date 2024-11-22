@@ -1,6 +1,7 @@
 import { Button } from '@mui/material';
 import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,12 +18,32 @@ const Navbar = () => {
         </div>
         <div className={`nav_items ${isMenuOpen ? "show" : ""}`}>
           <ul>
-            <li><a href="/">Tours</a></li>
-            <li><a href="/">Destination</a></li>
-            <li><a href="/">Virtual Tour</a></li>
-            <li><a href="/">Blog</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Contact</a></li>
+            <li>
+              <Link to="discover" smooth={true} duration={500}>
+                Tours
+              </Link>
+            </li>
+            <li>
+              <Link to="popular" smooth={true} duration={500}>
+                Destination
+              </Link>
+            </li>
+            <li>
+              <Link to="tips" smooth={true} duration={500}>
+                Virtual Tour
+              </Link>
+            </li>
+            <li>
+              <a href="/">Blog</a>
+            </li>
+            <li>
+              <Link to="perfection" smooth={true} duration={500}>
+                About
+              </Link>
+            </li>
+            <li>
+              <a href="/">Contact</a>
+            </li>
           </ul>
         </div>
         <div className="nav_actions">
