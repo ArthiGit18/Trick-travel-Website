@@ -56,6 +56,11 @@ Button:hover{
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
-
+.mui_icon{
+  background-color: #4AC63F;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px !important;
+}
 
 

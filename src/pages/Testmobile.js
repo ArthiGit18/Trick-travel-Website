@@ -37,8 +37,8 @@ const Testmobile = () => {
                     <p>Qui occaecat velit et ullamco dolor.Laborum sint qui aliqua cupidatat officia. Ut laborum exercitation occaecat aliqua ex mollit commodo enim commodo ut consequat incididunt labore pariatur. Deserunt tempor nulla proident excepteur aute eu occaecat minim mollit. Fugiat consequat nisi ut occaecat minim veniam ea magna aliquip laborum dolore magna.</p>
                 </div>
                 <div className="testimonial_buttons">
-                    <button onClick={handlePrev}><ArrowCircleLeftOutlinedIcon /></button>
-                    <button onClick={handleNext}><ArrowCircleRightOutlinedIcon /></button>
+                    <button onClick={handlePrev}><ArrowCircleLeftOutlinedIcon className='mui_icon' /></button>
+                    <button onClick={handleNext}><ArrowCircleRightOutlinedIcon className='mui_icon' /></button>
                 </div>
             </>
     );

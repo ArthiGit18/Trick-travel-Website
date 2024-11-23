@@ -165,7 +165,8 @@
                 li {
                     list-style-type: none;
 
-                    a,Link {
+                    a,
+                    Link {
                         text-decoration: none;
                         color: black;
                         font-size: 18px;
@@ -182,7 +183,7 @@
 
             Button {
                 background-color: #4AC63F;
-              
+
             }
         }
 
@@ -270,11 +271,11 @@
             display: flex;
         }
 
-
         .discover_btns Button:nth-child(1) {
             background-color: black;
             color: white !important;
         }
+
         .discover_btns Button:nth-child(2) {
             color: black !important;
         }
@@ -554,7 +555,37 @@
         align-items: flex-start;
         row-gap: 10px;
         margin: 20px 0;
-        width: 600px;
+        width: 100%;
+
+        // width: 600px;
+        .popular_action {
+            display: grid;
+            grid-template-columns: 600px 1fr;
+            justify-content: space-between;
+            width: 100%;
+
+            .discover_arows {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                column-gap: 20px;
+            }
+        }
+
+        @media (max-width: 750px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .popular_action {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                row-gap: 20px;
+            }
+        }
     }
 
     .popular_attractions {
@@ -681,7 +712,7 @@
                 /* Center content horizontally */
                 gap: 20px;
                 /* Space between items */
-                
+
 
                 div {
                     position: relative;
@@ -694,7 +725,7 @@
                     }
                 }
 
-                
+
             }
         }
 
@@ -930,10 +961,11 @@
         column-gap: 20px;
         row-gap: 30px;
 
-        .footer1{
+        .footer1 {
             display: grid;
             row-gap: 10px;
-            p{
+
+            p {
                 color: #555;
             }
         }
@@ -945,9 +977,11 @@
             ul {
                 display: grid;
                 row-gap: 10px;
+
                 li {
                     list-style-type: none;
-                    a{
+
+                    a {
                         text-decoration: none;
                         color: #555;
                     }
@@ -963,13 +997,14 @@
         @media (max-width: 800px) {
             grid-template-columns: 1fr 1fr;
         }
+
         @media (max-width: 400px) {
             grid-template-columns: 1fr;
         }
     }
 }
 
-.copyright{
+.copyright {
     text-align: center;
     display: flex;
     align-items: center;

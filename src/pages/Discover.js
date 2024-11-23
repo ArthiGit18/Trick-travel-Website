@@ -18,8 +18,8 @@ const Discover = () => {
                         <Button varient="outlines">Foreign</Button>
                     </div>
                     <div className='discover_arows'>
-                        <ArrowCircleLeftOutlinedIcon />
-                        <ArrowCircleRightOutlinedIcon />
+                        <ArrowCircleLeftOutlinedIcon className='mui_icon' />
+                        <ArrowCircleRightOutlinedIcon className='mui_icon' />
                     </div>
                 </div>
                 <div className='discover'>
